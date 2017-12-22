@@ -1,0 +1,32 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Topic Recognition P2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file topicRecognitionp4.cu...
+  
+  C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition P4\Topic Recognition P2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\boost_1_62_0" -I"C:\Program Files\boost_1_62_0\boost_1_62_0" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\topicRecognitionp4.cu.obj "C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition P4\Topic Recognition P2\topicRecognitionp4.cu" 
+C:\Program Files\boost_1_62_0\boost/mpl/bool.hpp(29): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/mpl/aux_/integral_wrapper.hpp(80): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/type_traits/integral_constant.hpp(70): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/type_traits/integral_constant.hpp(95): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/utility/base_from_member.hpp(158): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/core/noncopyable.hpp(27): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/mpl/bool.hpp(29): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/mpl/aux_/integral_wrapper.hpp(80): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/type_traits/integral_constant.hpp(70): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/type_traits/integral_constant.hpp(95): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/utility/base_from_member.hpp(158): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost/core/noncopyable.hpp(27): warning : "constexpr" is ignored here in Microsoft mode
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  topicRecognitionp4.cu
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition P4/Topic Recognition P2/topicRecognitionp4.cu(99): warning C4018: '<': signed/unsigned mismatch
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition P4/Topic Recognition P2/topicRecognitionp4.cu(180): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition P4/Topic Recognition P2/topicRecognitionp4.cu(239): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition P4/Topic Recognition P2/topicRecognitionp4.cu(295): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition P4/Topic Recognition P2/topicRecognitionp4.cu(355): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition P4/Topic Recognition P2/topicRecognitionp4.cu(417): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition P4/Topic Recognition P2/topicRecognitionp4.cu(483): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  Topic Recognition P2.vcxproj -> C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition P4\x64\Release\Topic Recognition P4.exe
+  Topic Recognition P2.vcxproj -> C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition P4\x64\Release\Topic Recognition P4.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition P4\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
